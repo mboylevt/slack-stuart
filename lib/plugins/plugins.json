@@ -1,6 +1,14 @@
 {
 	"slash_command" : {
 
+	    "add" : {
+	    	"active" : true,
+	        "name"   : "Add to a youtube playlist",
+	        "hook"   : "./plugins/slash/add",
+	        "author" : "mboylevt",
+	        "config" : {}
+	    },
+
 	    "random" : {
 	    	"active" : true,
 	        "name"   : "Random number generator",
